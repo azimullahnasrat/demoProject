@@ -6,7 +6,7 @@ from ntu.views import add_switch, switch_list
 
 urlpatterns = [
     path('ntu/', views.ntu, name='ntu'),
-    path('', add_switch, name='add_switch'),
+    path('addswitch/', add_switch, name='add_switch'),
     path('switches/', switch_list, name='switch_list'),
 
 ]
