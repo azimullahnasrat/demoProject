@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3fc4df0-86de-4097-9140-ead253072334" name="Changes" comment="DjangoNetworkAutomation">
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/NetworkAutomation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/NetworkAutomation/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/NetworkAutomation/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/NetworkAutomation/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/NetworkAutomation/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/badge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/fontawesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/forget-pass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/media/9606031aabebde32fa96edeff071a132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/progress-bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/typo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/templates/admin/~$README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/ntu/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/css/font-face.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-100italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-200italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-600italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-900italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/bg-title-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/bg-title-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/Untitled-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/avatar-big-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/logo-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/logo-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/images/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/animsition/animsition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/animsition/animsition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/bootstrap-4.1/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/bootstrap-4.1/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/bootstrap-4.1/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/chartjs/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/circle-progress/circle-progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/circle-progress/circle-progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/countdown/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/countdown/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/countdown/moment-timezone-with-data.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/countdown/moment-timezone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/countdown/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/counter-up/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/counter-up/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/counter-up/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/font-awesome-5/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/CHANGELOG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/CONTRIBUTING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/fullcalendar.print.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/gcal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/gcal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/lib/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/es-do.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/nl-be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/zh-hk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/fullcalendar-3.10.0/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/js/lightbox-plus-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/js/lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/dist/js/lightbox.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/src/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/src/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/src/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/src/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/src/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/lightbox2/src/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/progressbar/progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/progressbar/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/slick/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/smk-accordion/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/smk-accordion/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/smk-accordion/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.brazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/vector-map/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/wow/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/static/vendor/wow/wow.min.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NetworkAutomation" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ih7aGTjtVe3oCuuE2LH7iXJUwe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Azimullah/PycharmProjects/djangoAutomation/NetworkAutomation/templates"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Azimullah\PycharmProjects\djangoAutomation\NetworkAutomation\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Azimullah\PycharmProjects\djangoAutomation\NetworkAutomation\ntu" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3fc4df0-86de-4097-9140-ead253072334" name="Changes" comment="" />
+      <created>1719931017087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719931017087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NetworkAutomation/NetworkAutomation/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
