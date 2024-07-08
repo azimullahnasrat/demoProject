@@ -68,7 +68,7 @@ TEMPLATES = [
         },
     },
 ]
-
+   
 WSGI_APPLICATION = 'NetworkAutomation.wsgi.application'
 
 
