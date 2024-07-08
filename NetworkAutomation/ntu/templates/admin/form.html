@@ -1,4 +1,4 @@
-{% include 'header.html' %} 
+{% include './header.html' %} 
             <!-- HEADER DESKTOP-->
             <div class="main-content">
               <div class="section__content section__content--p30">
@@ -8,10 +8,11 @@
                       <div class="card">
                         <div class="card-header text-center">MEW Devices Entry</div>
                         <div class="card-body card-block">
-                          <form action="" method="post" class="">
+                          <form action="{% url 'addswitch' %}" method="post"class="">
+                            {% csrf_token %}
                             <div class="form-group">
                               <div class="input-group">
-                                <input type="text" id="username2" name="username2" placeholder="Username" class="form-control">
+                                <input type="text" id="ipaddress" name="ipaddress" placeholder="Enter IP Address" class="form-control">
                                 <div class="input-group-addon">
                                   <i class="fa fa-user"></i>
                                 </div>
