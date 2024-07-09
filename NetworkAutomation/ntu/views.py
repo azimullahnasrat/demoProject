@@ -18,12 +18,12 @@ def add_switch(request):
         switch_form = CiscoSwitchForm(request.POST)
         if switch_form.is_valid():
             switch_form.save()
-            return redirect('switch_list')  # Replace with your desired URL
+            return redirect('switches')  # Replace with your desired URL
         else:
             # Handle the second form submission
-            username2 = request.POST.get('username2')
-            email2 = request.POST.get('email2')
-            password2 = request.POST.get('password2')
+            ip_address = request.POST.get('ip_address')
+            name = request.POST.get('name')
+            password = request.POST.get('password')
             # Implement your logic to create a new user
     else:
         switch_form = CiscoSwitchForm()
@@ -31,5 +31,5 @@ def add_switch(request):
     return render(request, 'admin/form.html', {'form': switch_form})
 ##############
 def switch_list(request):
-    switches = CiscoSwitch.objects.all()
+    switches = CiscoSwitch.objects.all().values()
     return render(request, 'admin/list_sw.html', {'switches': switches})

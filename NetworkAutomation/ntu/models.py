@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 
 class CiscoSwitch(models.Model):
+    id=models.AutoField(primary_key=True)
     ip_address = models.CharField(max_length=20)
     name = models.CharField(max_length=100)
     password = models.CharField(max_length=100)
