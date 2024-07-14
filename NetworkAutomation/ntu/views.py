@@ -1,4 +1,7 @@
-from django.shortcuts import render
+import sys
+from getpass import getpass
+from netmiko.snmp_autodetect import SNMPDetect
+from netmiko import ConnectHandler
 # Create your views here.
 from django.shortcuts import render
 from netmiko import ConnectHandler
@@ -30,6 +33,40 @@ def add_switch(request):
 
     return render(request, 'admin/form.html', {'form': switch_form})
 ##############
+from django.shortcuts import render
+from your_app.models import CiscoSwitch
+from getpass import getpass
+from netmiko import ConnectHandler
+from snmp_detect import SNMPDetect
+import sys
+
 def switch_list(request):
-    switches = CiscoSwitch.objects.all().values()
-    return render(request, 'admin/list_sw.html', {'switches': switches})
+    switches = CiscoSwitch.objects.all()
+    switch_data = []
+
+    for switch in switches:
+        host = switch.ip_address  # Get the IP address from the CiscoSwitch model
+        password=switch.password
+        device = {
+            "host": host,
+            "username": "root",
+            "password": password
+        }
+
+        snmp_community = "mew"
+        my_snmp = SNMPDetect(
+            host, snmp_version="v2c", community=snmp_community
+        )
+        device_type = my_snmp.autodetect()
+
+        if device_type is None:
+            sys.exit("SNMP failed!")
+
+        device["device_type"] = device_type
+        with ConnectHandler(**device) as net_connect:
+            switch_data.append({
+                "ip_address": switch.ip_address,
+                "device_type": device_type
+            })
+
+    return render(request, 'admin/list_sw.html', {'switches': switch_data})
