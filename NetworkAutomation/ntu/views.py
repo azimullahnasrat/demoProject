@@ -2,9 +2,7 @@ import sys
 from getpass import getpass
 from netmiko.snmp_autodetect import SNMPDetect
 from netmiko import ConnectHandler
-# Create your views here.
 from django.shortcuts import render
-from netmiko import ConnectHandler
 from django.http import HttpResponse, HttpResponseNotFound
 from django.template import loader
 from django.shortcuts import render, redirect
