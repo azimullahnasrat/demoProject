@@ -1,7 +1,7 @@
 import sys
 from getpass import getpass
 from netmiko import ConnectHandler
-from netmiko.snmp_autodetect import SNMPDetect
+import netmiko
 from django.http import HttpResponse, HttpResponseNotFound
 from django.template import loader
 from django.shortcuts import render, redirect
