@@ -1,7 +1,6 @@
 import sys
 from getpass import getpass
 from netmiko import ConnectHandler
-from django.shortcuts import render
 from netmiko.snmp_autodetect import SNMPDetect
 from django.http import HttpResponse, HttpResponseNotFound
 from django.template import loader
@@ -32,7 +31,7 @@ def add_switch(request):
 
 def switch_list(request):
     switches = CiscoSwitch.objects.all()
-    switch_data = []
+    online_switches = []
 
     for switch in switches:
         host = switch.ip_address
@@ -49,14 +48,17 @@ def switch_list(request):
         )
         device_type = my_snmp.autodetect()
 
-        if device_type is None:
-            sys.exit("SNMP failed!")
+        if device_type is not None:
+            device["device_type"] = device_type
+            try:
+                with ConnectHandler(**device) as net_connect:
+                    online_switches.append({
+                        "ip_address": switch.ip_address,
+                        "device_type": device_type
+                    })
+            except Exception as e:
+                print(f"Error connecting to switch {switch.ip_address}: {e}")
+        else:
+            print(f"SNMP failed for switch {switch.ip_address}")
 
-        device["device_type"] = device_type
-        with ConnectHandler(**device) as net_connect:
-            switch_data.append({
-                "ip_address": switch.ip_address,
-                "device_type": device_type
-            })
-
-    return render(request, 'admin/list_sw.html', {'switches': switch_data})
+    return render(request, 'admin/list_sw.html', {'online_switches': online_switches})
