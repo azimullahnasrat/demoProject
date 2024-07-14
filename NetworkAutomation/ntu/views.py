@@ -8,18 +8,17 @@ from django.template import loader
 from django.shortcuts import render, redirect
 from .forms import CiscoSwitchForm
 from .models import CiscoSwitch
-def ntu(request):
 
+def ntu(request):
     var={'name':"azimullah"}
     return render(request,'admin/index.html',context=var)
-    ################
 
 def add_switch(request):
     if request.method == 'POST':
         switch_form = CiscoSwitchForm(request.POST)
         if switch_form.is_valid():
             switch_form.save()
-            return redirect('switches')  # Replace with your desired URL
+            return redirect('switches')
         else:
             # Handle the second form submission
             ip_address = request.POST.get('ip_address')
@@ -31,14 +30,13 @@ def add_switch(request):
 
     return render(request, 'admin/form.html', {'form': switch_form})
 
-
 def switch_list(request):
     switches = CiscoSwitch.objects.all()
     switch_data = []
 
     for switch in switches:
-        host = switch.ip_address  # Get the IP address from the CiscoSwitch model
-        password=switch.password
+        host = switch.ip_address
+        password = switch.password
         device = {
             "host": host,
             "username": "root",
