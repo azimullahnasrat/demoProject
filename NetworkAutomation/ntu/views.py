@@ -40,8 +40,11 @@ def ping_device(host):
 def switch_list(request): 
     switches = CiscoSwitch.objects.all()
     online_switches = []
-    device
     for switch in switches:
         if ping_device(switch.ip_address):
             online_switches.append(switch)
-    return render(request, 'admin/list_sw.html', {'online_switches': online_switches})
+            return render(request, 'admin/list_sw.html', {'online_switches': online_switches})
+        else:
+            online_switches.append(switch)
+            return render(request, 'admin/list_sw.html', {'online_switches': online_switches})
+            
