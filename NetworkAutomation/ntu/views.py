@@ -1,6 +1,7 @@
 import sys
 from getpass import getpass
 from netmiko import ConnectHandler
+import subprocess
 import netmiko
 from django.http import HttpResponse, HttpResponseNotFound
 from django.template import loader
@@ -29,36 +30,17 @@ def add_switch(request):
 
     return render(request, 'admin/form.html', {'form': switch_form})
 
+def ping_device(host):
+    try:
+        subprocess.check_output(['ping', '-c', '1', host], universal_newlines=True)
+        return True
+    except subprocess.CalledProcessError:
+        return False
+
 def switch_list(request):
     switches = CiscoSwitch.objects.all()
     online_switches = []
-
     for switch in switches:
-        host = switch.ip_address
-        password = switch.password
-        device = {
-            "host": host,
-            "username": "root",
-            "password": password
-        }
-
-        snmp_community = "mew"
-        my_snmp = SNMPDetect(
-            host, snmp_version="v2c", community=snmp_community
-        )
-        device_type = my_snmp.autodetect()
-
-        if device_type is not None:
-            device["device_type"] = device_type
-            try:
-                with ConnectHandler(**device) as net_connect:
-                    online_switches.append({
-                        "ip_address": switch.ip_address,
-                        "device_type": device_type
-                    })
-            except Exception as e:
-                print(f"Error connecting to switch {switch.ip_address}: {e}")
-        else:
-            print(f"SNMP failed for switch {switch.ip_address}")
-
+        if ping_device(switch.ip_address):
+            online_switches.append(switch)
     return render(request, 'admin/list_sw.html', {'online_switches': online_switches})
