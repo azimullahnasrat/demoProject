@@ -37,9 +37,10 @@ def ping_device(host):
     except subprocess.CalledProcessError:
         return False
 
-def switch_list(request):
+def switch_list(request): 
     switches = CiscoSwitch.objects.all()
     online_switches = []
+    device
     for switch in switches:
         if ping_device(switch.ip_address):
             online_switches.append(switch)
