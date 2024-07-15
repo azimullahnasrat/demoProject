@@ -8,10 +8,11 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-lg-6">
                                 <div class="table-responsive table--no-card m-b-30">
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
+                                            <p class="text-center text-success p-1 mb-1">Online Switches</p>
                                             <tr>
                                                 <th>ID</th>
                                                 <th>IP Address</th>
@@ -35,17 +36,61 @@
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
                                                             <i class="zmdi zmdi-delete"></i>
                                                         </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="status">
                                                             <i class="zmdi zmdi-"></i>
                                                         </button>
                                                     </div>
                                                 </td>
                                             </tr>
                                            {% endfor %}
+                                           
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
+                            <div class="col-lg-6">
+                                <div class="table-responsive table--no-card m-b-30">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <p class="text-center text-danger p-1 mb-1">Offline Switches</p>
+
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>IP Address</th>
+                                                <th>Location</th>
+                                                <th class="text-right">More</th>
+                                               
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for sw in offline_switches %}
+                                            <tr>
+                                                <td>{{ sw.id }}</td>
+                                                <td>{{ sw.ip_address }}</td>
+                                                <td>{{sw.name }}</td>
+                                                <td>
+                                                    <div class="table-data-feature">
+                    
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="status">
+                                                            <i class="zmdi zmdi-"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                           {% endfor %}
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div></div></div>
+            </div>
                         
 
 <!-- dfaffdsafdsaf -->
