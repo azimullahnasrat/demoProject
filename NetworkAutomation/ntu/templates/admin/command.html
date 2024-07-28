@@ -1,0 +1,52 @@
+{% include './header.html' %} 
+            <!-- HEADER DESKTOP-->
+            <div class="main-content">
+              <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                      <div class="card">
+                        <div class="card-header text-center">MEW Devices Entry</div>
+                        <div class="card-body card-block">
+                          <form action="{% url 'cisco_command' %}" method="post" class="">
+                            {% csrf_token %}
+                            <div class="form-group">
+                              <div class="input-group">
+                                <input type="text" id="ip_address" name="ip_address" placeholder="Enter IP Address" class="form-control">
+                                <div class="input-group-addon">
+                                  <i class="fa fa-user"></i>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="input-group">
+                                <input type="text" id="command" name="command" placeholder="Enter Command" class="form-control">
+                                <div class="input-group-addon">
+                                  <i class="fa fa-envelope"></i>
+                                </div>
+                              </div>
+                            </div>
+                            {% if output %}
+                            <div class="form-group">
+                              <label for="output">Output:</label>
+                              <textarea class="form-control" id="output" rows="3">{{ output }}</textarea>
+                            </div>
+                            {% elif error %}
+                            <h2>Error:</h2>
+                            <p>{{ error }}</p>
+                            {% endif %}
+                        
+                            <div class="form-actions form-group">
+                              <button type="submit" class="btn btn-secondary btn-sm">Submit</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MAIN CONTENT-->
+
+            {% include './footer.html' %} 

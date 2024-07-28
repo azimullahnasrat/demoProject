@@ -8,6 +8,8 @@ from django.template import loader
 from django.shortcuts import render, redirect
 from .forms import CiscoSwitchForm
 from .models import CiscoSwitch
+from .forms import CiscoCommandForm
+import time
 
 def ntu(request):
     var={'name':"azimullah"}
@@ -47,3 +49,43 @@ def switch_list(request):
         else:
             offline_switches.append(switch)
     return render(request, 'admin/list_sw.html', {'online_switches': online_switches, 'offline_switches': offline_switches})
+
+def command(request):
+    
+    return render(request,'admin/command.html')
+
+def cisco_command(request):
+    if request.method == 'POST':
+        form = CiscoCommandForm(request.POST)
+        if form.is_valid():
+            ip_address = request.POST.get('ip_address')
+            command = request.POST.get('command')
+            password = "Admin@sw.mew.gov.af2022"
+
+            try:
+                # Cisco device connection details
+                device = {
+                    'device_type': 'cisco_ios',
+                    'host': ip_address,
+                    'username': "root",
+                    'password': password,
+                    'secret': password,
+                }
+
+                # Connect to the Cisco device and execute the command
+                connection = ConnectHandler(**device)
+                time.sleep(2)
+                connection.enable()  # Go to enable mode
+                time.sleep(2)  # Wait for 2 seconds in enable mode
+                connection.send_command("enable")
+                time.sleep(2)  # Wait for 2 seconds after entering enable mode
+                connection.send_command(password)
+                time.sleep(2)  # Wait for 2 seconds after entering enable mode
+                output = connection.send_command(command)
+                connection.disconnect()
+                return render(request, 'admin/command.html', {'output': output})
+            except Exception as e:
+                return render(request, 'admin/command.html', {'error': str(e)})
+    else:
+        form = CiscoCommandForm()
+    return render(request, 'admin/command.html', {'form': form})

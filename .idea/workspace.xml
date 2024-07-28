@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3fc4df0-86de-4097-9140-ead253072334" name="Changes" comment="DjangoNetworkAutomation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b3fc4df0-86de-4097-9140-ead253072334" name="Changes" comment="DjangoNetworkAutomation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +89,7 @@
       <workItem from="1720939685717" duration="73000" />
       <workItem from="1720953342212" duration="72000" />
       <workItem from="1720953782649" duration="124000" />
+      <workItem from="1721127209418" duration="11000" />
     </task>
     <servers />
   </component>
