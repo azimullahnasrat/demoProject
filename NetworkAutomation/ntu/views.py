@@ -74,13 +74,13 @@ def cisco_command(request):
 
                 # Connect to the Cisco device and execute the command
                 connection = ConnectHandler(**device)
-                time.sleep(2)
+                time.sleep(1)
                 connection.enable()  # Go to enable mode
-                time.sleep(2)  # Wait for 2 seconds in enable mode
+                time.sleep(1)  # Wait for 1 seconds in enable mode
                 connection.send_command("enable")
-                time.sleep(2)  # Wait for 2 seconds after entering enable mode
+                time.sleep(1)  # Wait for 1 seconds after entering enable mode
                 connection.send_command(password)
-                time.sleep(2)  # Wait for 2 seconds after entering enable mode
+                time.sleep(1)  # Wait for 1 seconds after entering enable mode
                 output = connection.send_command(command)
                 connection.disconnect()
                 return render(request, 'admin/command.html', {'output': output})
